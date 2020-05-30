@@ -348,6 +348,8 @@ C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1
 C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\staticwebassets\blazor_tarefas.StaticWebAssets.xml
 C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\blazor_tarefas.dll
 C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\blazor_tarefas.pdb
-C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\gV8xfNkgn9s-CFCIstlIQH9EsBdj42DKKyAKtNuKUb0=.hash
-C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\tnPE2sO5bAoM9cOZN9f-7hLuAqZrpvHgwwMGyi6DuTk=.hash
-C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\vFjW3sfCBsOgSCN5-Z0arwRmpTT_F3KKqIdihri37WQ=.hash
+C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\RazorDeclaration\Shared\Alerta.razor.g.cs
+C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\Razor\Shared\Alerta.razor.g.cs
+C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\RUiHd1pOMW1BaxvhpcimA6OKL4OREVw0US4n_ePMn-8=.hash
+C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\ILOhNhV0X0UTmEKXvs3B9ZSwfHTJgN9d-jH-fhZdrVk=.hash
+C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\p9npN4ahZnO9AbKvf9jlYrQryCDOyNIY-uiprsxmBp8=.hash
