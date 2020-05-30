@@ -76,6 +76,13 @@ using blazor_tarefas.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\_Imports.razor"
+using blazor_tarefas.Entidades;
+
+#line default
+#line hidden
+#nullable disable
     public partial class Alerta : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
