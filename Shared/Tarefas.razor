@@ -6,13 +6,21 @@
 @if (tarefas == null)
 {
     <img src="https://media.giphy.com/media/3ov9jKQbfWvDNu2Z0s/giphy.gif" width="150" height="150" />
-    <Alerta Mensagem="Carregando"></Alerta>
+    <Alerta Mensagem="Carregando">
+        <span style="blue">Carregando tarefas</span>
+    </Alerta>
     @*<p>Carregando...</p>*@
 }
 else if (!tarefas.Any())
 {
     @*<p>ainda não existem tarefas</p>*@
-    <Alerta Mensagem="Ainda não existem tarefas"></Alerta>
+    <Alerta Mensagem="Ainda não existem tarefas">
+        <div class="card">
+            <div class="card-body" style="color: black">
+                Você precisa cadastrar algumas tarefas!
+            </div>
+        </div>
+    </Alerta>
 }
 else
 {
@@ -29,10 +37,8 @@ else
             @foreach (var item in tarefas)
             {
                 <tr>
-                    <td><button @onclick="@(() => RemoverTarefa(item.ID))" class="btn btn-danger"><i class="oi oi-trash"></i></button></td>
-                    <td>@item.DataCriacao.ToString("dd/MM/yyyy")</td>
-                    <td>@item.Descricao</td>
-                    <td><input type="checkbox" @bind="@item.Concluida" /></td>
+                   
+                    <TarefaIndividual item="item" RemoverTarefa="RemoveTarefa"></TarefaIndividual>
                 </tr>
             }
         </tbody>
@@ -77,9 +83,9 @@ else
         }
     }
 
-    private void RemoverTarefa(Guid id)
+    private void RemoveTarefa(Tarefa tarefa)
     {
-        tarefas.Remove(tarefas.First(x => x.ID == id));
+        tarefas.Remove(tarefas.First(x => x.ID == tarefa.ID));
     }
 
 }

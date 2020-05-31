@@ -1,0 +1,29 @@
+﻿@page "/evento1"
+
+<label>Dados de eventos : Pressione uma tecla para mudar a cor</label>
+
+<div style="background-color: @cor; padding: 50px;"></div>
+
+
+<input type="text" @onkeypress="@(e => TeclaPressionada(e))" />
+
+@code {
+    private string cor { get; set; } = "red";
+
+    void TeclaPressionada(KeyboardEventArgs args)
+    {
+
+
+            Random rgb = new Random();
+            int c1 = rgb.Next(0, 255);
+            int c2 = rgb.Next(0, 255);
+            int c3 = rgb.Next(0, 255);
+            string cores = rgb.ToString();
+
+
+            cor = $"rgb({c1},{c2},{c3})";
+            Console.WriteLine($"A tecla {args.Key} foi pressionada");
+            Console.WriteLine($"{c1},{c2},{c3}");
+
+    }
+}
