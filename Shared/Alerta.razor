@@ -1,15 +1,39 @@
-﻿<div class="alert alert-danger mt-4" role="alert">
-    <span class="oi oi-x mr-2" aria-hidden="true"></span>
-    <strong>@Mensagem</strong>
+﻿
+<div>
+    @if (Conteudo1 == null)
+    {
+        <div class="alert-danger" style="padding:15px">
+            <span>
+                <i class="oi oi-x text-danger"></i>
+                parece que algo deu errado
+            </span>
+        </div>
+    }
+    else
+    {
+        @Conteudo1
+    }
 </div>
 <div>
-    @ChildContent
+    @if (Conteudo2 == null)
+    {
+        <div class="alert-danger" style="padding:15px">
+            <span>
+                <i class="oi oi-x text-danger"></i>
+                parece que algo deu errado
+            </span>
+        </div>
+    }
+    else
+    {
+        @Conteudo2
+    }
 </div>
 
 
 
 @code {
-    [Parameter] public string Mensagem { get; set; }
-    [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter] public RenderFragment Conteudo1 { get; set; }
+    [Parameter] public RenderFragment Conteudo2 { get; set; }
 
 }

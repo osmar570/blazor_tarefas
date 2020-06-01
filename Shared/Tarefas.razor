@@ -6,20 +6,18 @@
 @if (tarefas == null)
 {
     <img src="https://media.giphy.com/media/3ov9jKQbfWvDNu2Z0s/giphy.gif" width="150" height="150" />
-    <Alerta Mensagem="Carregando">
-        <span style="blue">Carregando tarefas</span>
+    <Alerta>
+        <Conteudo1><h1>Aguarde</h1></Conteudo1>
+        <Conteudo2><h1>Carregando...</h1></Conteudo2>
     </Alerta>
     @*<p>Carregando...</p>*@
 }
 else if (!tarefas.Any())
 {
     @*<p>ainda não existem tarefas</p>*@
-    <Alerta Mensagem="Ainda não existem tarefas">
-        <div class="card">
-            <div class="card-body" style="color: black">
-                Você precisa cadastrar algumas tarefas!
-            </div>
-        </div>
+    <Alerta>
+        <Conteudo1><h1>Não existem tarefas</h1></Conteudo1>
+        <Conteudo2><h1>Insira uma nova tarefa</h1></Conteudo2>
     </Alerta>
 }
 else

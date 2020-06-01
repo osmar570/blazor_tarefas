@@ -358,6 +358,6 @@ C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1
 C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\Razor\Pages\DataBinding.razor.g.cs
 C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Evento1.razor.g.cs
 C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\Razor\Pages\Evento1.razor.g.cs
-C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\MKUQWYfqf3i7kwhrTbx66pu-zt5va8J195A6JdMTAmc=.hash
-C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\u90uf_weLdRAPSdtKUhYefRlGRASf997003N7nDi3ts=.hash
-C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\IYhBpoFbf8M-pTya0J1pkjN9YoG_7v1gYbdH5ITz6Vk=.hash
+C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\3KupR2ycqBYIPB3dFk4r2OVTL6Z8-6C1qwxxOlKbCMs=.hash
+C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\6x7y6c04NMqy2AOtkbmvBT20w8diIwcx_JheFQy3EAk=.hash
+C:\Users\osmar\Documents\projetos_blazor\blazor_tarefas\obj\Debug\netstandard2.1\integrity\5o8zLtDlX25epEw9mL31or4CHHiI3lPpiLL_vXfNnv8=.hash
